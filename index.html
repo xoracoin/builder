@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Alex Builder — Foydalanish Shartlari</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root{
+    --blue:#2563eb; --blue-d:#1d4ed8; --ink:#1f2937; --muted:#6b7280;
+    --bg:#f8fafc; --card:#fff; --line:#e5e7eb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  a{color:var(--blue)}
+  header{background:linear-gradient(135deg,#1d4ed8,#3b82f6);color:#fff;text-align:center;padding:44px 20px 40px}
+  header .brand{letter-spacing:5px;font-size:14px;opacity:.9}
+  header h1{font-size:30px;margin:14px 0 12px}
+  header .meta{font-size:15px;opacity:.9}
+  main{padding:20px 14px 40px;max-width:760px;margin:0 auto}
+  .notice{background:#fffbeb;border:1px solid #fde68a;border-left:5px solid #f59e0b;color:#92400e;border-radius:16px;padding:20px;margin-bottom:20px}
+  .notice b{color:#78350f}
+  .card{background:var(--card);border:1px solid #dbe4f3;border-radius:20px;padding:22px 18px;margin-bottom:18px}
+  .card-head{display:flex;gap:14px;align-items:flex-start;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:18px}
+  .num{flex:none;width:44px;height:44px;border-radius:12px;background:var(--blue);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .card-head h2{font-size:19px;line-height:1.3}
+  .card-head p{color:var(--muted);font-size:15px}
+  .clause{margin-bottom:14px}
+  .clause .n{color:var(--blue);font-weight:700;margin-right:10px}
+  ul{margin:8px 0 6px 6px;padding-left:20px}
+  li{margin:6px 0}
+  li::marker{color:var(--blue)}
+  .danger{background:#fef2f2;border:1px solid #fecaca;color:#7f1d1d;border-radius:14px;padding:16px;margin-bottom:16px}
+  .tip{background:#eff6ff;border:1px solid #bfdbfe;color:#1e3a8a;border-radius:14px;padding:16px;margin:14px 0}
+  .ok{background:#f0fdf4;border:1px solid #bbf7d0;color:#14532d;border-radius:14px;padding:16px;margin-top:14px}
+  .tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:12px}
+  table{border-collapse:collapse;width:100%;min-width:480px;font-size:15px}
+  th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f3f6fb}
+  tr:last-child td{border-bottom:none}
+  .tag{display:inline-block;padding:3px 12px;border-radius:999px;font-size:14px;font-weight:600;white-space:nowrap}
+  .t-start{background:#dbeafe;color:#1d4ed8}.t-lite{background:#dcfce7;color:#15803d}
+  .t-std{background:#d1fae5;color:#047857}.t-pro{background:#ffedd5;color:#c2410c}
+  .t-prem{background:#ffedd5;color:#b45309}.t-unl{background:#ede9fe;color:#6d28d9}
+  .s-act{background:#dcfce7;color:#15803d}.s-stop{background:#ffedd5;color:#c2410c}.s-del{background:#fee2e2;color:#b91c1c}
+  .contact{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+  .contact .ic{font-size:30px}
+  .contact small{display:block;color:var(--muted);font-size:14px}
+  .contact a{color:var(--ink);font-weight:600;text-decoration:none;word-break:break-all}
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:10px 16px 30px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">ALEX BUILDER</div>
+  <h1>Foydalanish Shartlari</h1>
+  <div class="meta">Oxirgi yangilanish: 11 Iyun, 2025 · O'zbek tili</div>
+</header>
+
+<main>
+
+<div class="notice"><b>Muhim:</b> Alex Builder xizmatidan foydalanishni davom ettirar ekansiz, ushbu shartlarni to'liq o'qib, tushunib, <b>so'zsiz qabul qilgan</b> hisoblanasiz. Iltimos, har bir bo'limni diqqat bilan o'qing.</div>
+
+<!-- 1 -->
+<section class="card">
+  <div class="card-head"><div class="num">1</div><div><h2>Kirish va kelishuv tomonlari</h2><p>Kim bilan shartnoma tuzmoqdasiz</p></div></div>
+  <p class="clause"><span class="n">1.1</span>Ushbu <b>Foydalanish Shartlari</b> ("Shartlar") — Siz ("Foydalanuvchi") va <b>Alex Builder</b> platformasi ("Xizmat", "Biz") o'rtasidagi yuridik jihatdan majburiy kelishuv hisoblanadi. Alex Builder — Telegram orqali botlar yaratish, joylash va boshqarish imkonini beruvchi avtomatlashtirilgan platforma bo'lib, <a href="https://b.alexy.uz">b.alexy.uz</a> domenida joylashgan va asosiy boti <a href="https://t.me/AlexBuilderBot">@AlexBuilderBot</a> orqali ishlaydi.</p>
+  <p class="clause"><span class="n">1.2</span>Xizmatga birinchi marta murojaat qilganingizda yoki botdan foydalanishni boshlagan paytingizda ushbu Shartlarni <b>qabul qilgan</b> hisoblanasiz. Kelishmagan bo'lsangiz — xizmatdan foydalanmang va barcha yaratilgan loyihalaringizni o'chirib, savollaringiz bo'lsa support bilan bog'laning.</p>
+  <p class="clause"><span class="n">1.3</span>Ushbu Shartlar O'zbekiston Respublikasining amaldagi qonunchiligiga muvofiq tuzilgan. Xizmat O'zbekiston hududida faoliyat yuritadi va O'zbekiston Respublikasi qonunlari asosida tartibga solinadi.</p>
+</section>
+
+<!-- 2 -->
+<section class="card">
+  <div class="card-head"><div class="num">2</div><div><h2>Xizmatning mohiyati va imkoniyatlari</h2><p>Nima taqdim etiladi</p></div></div>
+  <p class="clause"><span class="n">2.1</span><b>Alex Builder</b> — Telegram platformasi orqali foydalanuvchilarga tayyor skriptlar asosida o'z loyihalarini yaratish, sozlash va boshqarish imkonini beruvchi SaaS (Software-as-a-Service) tipdagi xizmatdir.</p>
+  <div class="clause"><span class="n">2.2</span><b>Bot turlari.</b> Xizmatda quyidagi turdagi botlar yaratish imkoni mavjud:
+    <ul>
+      <li>🎬 <b>Kino Bot</b> — kinolarni kod orqali yuklab berish, statistika, majburiy obuna, reklama va premium yopiq kontent</li>
+      <li>⭐ <b>Stars Bot</b> — Telegram Stars va Premium sotish, qo'lda yoki Fragment orqali avtomatik yetkazish, web panel</li>
+      <li>🗣 <b>Referal Bot</b> — referal havola orqali odam taklif qilib pul ishlash, to'lov tizimlari va majburiy obuna</li>
+      <li>🗳 <b>OpenBudget Bot</b> — Open Budget loyihalari uchun ovoz yig'ish, statistika va majburiy obuna</li>
+      <li>🚀 <b>Nakrutka Bot</b> — SMM xizmatlarini API orqali avtomatik sotish, narx va foyda foizini sozlash</li>
+      <li>🔐 <b>VipKanal Bot</b> — VIP kanal/guruhga pullik obuna sotish, kirish va chiqarishni avtomatlashtirish</li>
+      <li>📞 <b>Aloqa Bot</b> — murojaatlar qabul qilish, support boshqaruvi va bir nechta admin ulash</li>
+      <li>🚕 <b>Taxi Bot</b> — taxi va pochta buyurtmalarini haydovchilar guruhiga yuborish, holatni kuzatish</li>
+      <li>📝 <b>Anketa Bot</b> — savollar yaratib javob yig'ish, Excel/CSV yuklab olish, limit va bir martalik to'ldirish</li>
+      <li>🏆 <b>Konkurs Bot</b> — referal asosidagi konkurs, sovrinlar, avtomatik g'oliblar e'loni va qurilma tekshiruvi</li>
+      <li>📋 <b>Menyu Bot</b> — tugmalar konstruktori: ichma-ich menyu, media kontent, majburiy obuna va sub-adminlar</li>
+    </ul>
+  </div>
+  <div class="clause"><span class="n">2.3</span><b>Asosiy funksiyalar:</b>
+    <ul>
+      <li>Loyiha tokenini kiritish va loyihani serverga avtomatik joylash (deploy)</li>
+      <li>Webhook o'rnatish, yangilash va o'chirish</li>
+      <li>Tarif va plan tanlash, o'zgartirish</li>
+      <li>Loyiha muddatini uzaytirish va to'lov boshqaruvi</li>
+      <li>Loyiha egasini (owner) o'tkazish</li>
+      <li>Skriptni yangi versiyaga yangilash</li>
+      <li>Foydalanuvchi balansi va referral tizimi</li>
+      <li>Loyiha faoliyatini to'xtatish yoki to'liq o'chirish</li>
+      <li>Kanal/guruh obuna tekshiruvi (joinchat)</li>
+      <li>Admin panel orqali xabar yuborish va boshqarish</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">2.4</span>Xizmat <b>texnik platforma</b> sifatida ishlaydi — skriptlar saqlanadi va joylashtiriladi. Loyiha orqali amalga oshirilgan tijorat operatsiyalari, kontent va foydalanuvchilar bilan munosabatlar to'liq Loyiha Egasining mas'uliyatida qoladi.</p>
+  <p class="clause"><span class="n">2.5</span>Xizmat istalgan vaqtda funksiyalarni qo'shishi, o'zgartirishi yoki olib tashlashi mumkin. Muhim o'zgarishlar oldindan e'lon qilinadi.</p>
+</section>
+
+<!-- 3 -->
+<section class="card">
+  <div class="card-head"><div class="num">3</div><div><h2>Ro'yxatdan o'tish, tokenlar va majburiyatlar</h2><p>Hisob va autentifikatsiya xavfsizligi</p></div></div>
+  <p class="clause"><span class="n">3.1</span>Xizmatdan foydalanish uchun ro'yxatdan o'tish talab qilinmaydi — Telegram hisobingiz orqali <a href="https://t.me/AlexBuilderBot">@AlexBuilderBot</a> ga murojaat qilsangiz, tizim Sizni avtomatik aniqlaydi va hisob yaratadi. Siz kiritgan Telegram ID va ism platformaning asosiy identifikatori hisoblanadi.</p>
+  <div class="clause"><span class="n">3.2</span><b>Bot tokeni xavfsizligi.</b> Bot yaratish uchun Telegram BotFather'dan olingan maxfiy token kiritiladi. Ushbu tokenning xavfsizligi to'liq Sizning mas'uliyatingizda:
+    <ul>
+      <li>Tokenni hech kimga — do'stlarga, hamkasblarga, texnik yordamga ham — oshkor qilmang</li>
+      <li>Tokenni ijtimoiy tarmoqlarda, guruhlarda yoki ochiq kanallarda e'lon qilmang</li>
+      <li>Token oshkor bo'lsa, Xizmat bundan kelib chiqqan zarar uchun javobgar emas</li>
+      <li>Xizmatning rasmiy texnik yordami hech qachon tokeningizni so'ramaydi</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">3.3</span><b>Token kompromat bo'lsa:</b> Darhol Telegram BotFather orqali tokenni yangilang, eski token uchun webhookni o'chiring va <a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a> ga xabar bering. Xizmatda tokenni yangilash funksiyasi mavjud.</p>
+  <p class="clause"><span class="n">3.4</span>Foydalanuvchi bir vaqtning o'zida bir nechta loyiha yaratishi va boshqarishi mumkin. Birinchi loyiha yaratish uchun skript narxi 0 so'm bo'lishi mumkin (agar skript bunga ruxsat bersa). Keyingi loyihalar uchun to'liq narx qo'llanadi.</p>
+  <p class="clause"><span class="n">3.5</span>Hisobingizni boshqasiga o'tkazish yoki umumiy foydalanish taqiqlanadi. Har bir Telegram hisob — alohida, shaxsiy Foydalanuvchi sifatida qabul qilinadi.</p>
+</section>
+
+<!-- 4 -->
+<section class="card">
+  <div class="card-head"><div class="num">4</div><div><h2>Taqiqlangan faoliyat va kontent</h2><p>Qat'iy taqiqlar — buzilsa hisob darhol bloklanadi</p></div></div>
+  <div class="danger">🚫 Quyidagi qoidalar <b>qat'iy va muzokaraga ochiq emas</b>. Har qanday buzilish aniqlansa — ogohlantirishsiz va darhol hisobni bloklash, loyihalarni o'chirish va huquqiy organlarga murojaat qilish amalga oshiriladi.</div>
+  <p class="clause"><span class="n">4.1</span><b>18+ va bolalar xavfsizligi.</b> Xizmatni pornografik, jinsiy ekspluatatsiya, voyaga etmaganlar uchun zararli yoki 18+ kontent yaratish, tarqatish yoki reklama qilish maqsadida ishlatish mutlaqo taqiqlanadi. Bunday holatlar huquqni muhofaza qiluvchi organlarga topshiriladi.</p>
+  <p class="clause"><span class="n">4.2</span><b>Qimor va g'ayri-qonuniy pul tikish.</b> Qimor o'yinlari, stavka qo'yish, online casino yoki noqonuniy lotereyalarni boshqarish, reklama qilish yoki ularga yo'naltirish taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.3</span><b>Firibgarlik va noqonuniy to'lovlar.</b> Aldatish, phishing, saxta to'lov talabnomalari, noqonuniy pul yig'ish yoki boshqa firibgarlik sxemalari qat'iyan taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.4</span><b>Texnik hujumlar.</b> DDoS/DoS hujumlari, zararli dasturlar (malware, spyware, ransomware) tarqatish, tizimga ruxsatsiz kirish, loyihani spam mashina sifatida ishlatish taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.5</span><b>Ruxsatsiz ommaviy xabarlar (Spam).</b> Foydalanuvchilar roziligisiz ommaviy reklama, spam xabarlar va so'ralmagan marketing tarqatish taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.6</span><b>Shaxsiy ma'lumotlarni suiiste'mol qilish.</b> Boshqalarning shaxsiy ma'lumotlarini (telefon, manzil, moliyaviy ma'lumot va h.k.) ruxsatsiz yig'ish, saqlash, sotish yoki tarqatish taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.7</span><b>Ekstremizm va zo'ravonlik.</b> Terrorchilikni, ekstremizmni, diniy yoki etnik nafratni qo'llab-quvvatlovchi yoxud zo'ravonlikni targ'ib qiluvchi kontent yaratish va tarqatish taqiqlanadi.</p>
+  <p class="clause"><span class="n">4.8</span><b>Mualliflik huquqini buzish.</b> Ruxsatsiz kontent, pirat filmlar, musiqa yoki dasturiy ta'minotni tarqatish taqiqlanadi. Kino botlari faqat qonuniy litsenziyalangan kontent asosida ishlashi kerak.</p>
+  <p class="clause"><span class="n">4.9</span><b>Oqibatlar.</b> Buzilish aniqlanganda Xizmat quyidagilarni amalga oshirish huquqiga ega: loyiha(lar)ni darhol to'xtatish va o'chirish; server fayllarini, webhookni va barcha resurslarni yo'q qilish; balansdagi mablag'ni muzlatish; hisobni muddatsiz bloklash; O'zbekiston Respublikasi huquqni muhofaza qiluvchi organlariga ma'lumot topshirish.</p>
+</section>
+
+<!-- 5 -->
+<section class="card">
+  <div class="card-head"><div class="num">5</div><div><h2>Tariflar va limitlar</h2><p>Barcha planlar va ularning imkoniyatlari</p></div></div>
+  <p class="clause"><span class="n">5.1</span>Xizmatda <b>6 ta asosiy tarif</b> mavjud. Har bir tarif kunlik to'lov va kunlik aktiv foydalanuvchi limiti bilan belgilanadi. Kunlik to'lov har kuni loyiha faoliyatdagi ekan, balansingizdan avtomatik yechiladi.</p>
+  <div class="tbl"><table>
+    <tr><th>Tarif</th><th>Kunlik to'lov</th><th>Kunlik aktivlar</th></tr>
+    <tr><td><span class="tag t-start">Start</span></td><td>Asosiy narx (fee)</td><td>400 ta</td></tr>
+    <tr><td><span class="tag t-lite">Lite</span></td><td>fee × 2</td><td>1,200 ta</td></tr>
+    <tr><td><span class="tag t-std">Standard</span></td><td>fee × 3</td><td>3,000 ta</td></tr>
+    <tr><td><span class="tag t-pro">Pro</span></td><td>fee × 5</td><td>8,000 ta</td></tr>
+    <tr><td><span class="tag t-prem">Premium</span></td><td>fee × 6</td><td>20,000 ta</td></tr>
+    <tr><td><span class="tag t-unl">Unlimited</span></td><td>fee × 10</td><td>100,000+</td></tr>
+  </table></div>
+  <p class="clause"><span class="n">5.2</span>Har bir skriptning asosiy <b>fee</b> (kunlik baza narxi) skript turiga qarab farq qiladi. Aniq narxlar loyiha yaratishda ko'rsatiladi. Tarif o'zgartirishda kamida <b>7 kunlik</b> mablag' balansingizda bo'lishi shart.</p>
+  <p class="clause"><span class="n">5.3</span>Tarifni istalgan tomonga o'zgartirish mumkin — yuqoriga (upgrade) ham, pastga (downgrade) ham. Tarif o'zgartirilganda oldingi muddatni hisobga olgan holda yangi narx bo'yicha 7 kunlik mablag' yechiladi.</p>
+  <p class="clause"><span class="n">5.4</span>Limit chegarasiga yetganda loyiha avtomatik ravishda yangi foydalanuvchilarga javob berishni to'xtatadi va kunning oxirida limit tiklanadi.</p>
+  <div class="tip">💡 Tarif o'zgartirish uchun kamida 7 kunlik mablag' balansingizda bo'lishi shart. Masalan, yangi tarifning kunlik narxi 500 so'm bo'lsa — kamida 3,500 so'm balansingizda bo'lishi kerak.</div>
+</section>
+
+<!-- 6 -->
+<section class="card">
+  <div class="card-head"><div class="num">6</div><div><h2>To'lov, balans va referral tizimi</h2><p>Pul kiritish usullari, bonuslar va qaytarish siyosati</p></div></div>
+  <div class="clause"><span class="n">6.1</span><b>Balans tizimi.</b> Xizmatda O'zbek so'mi (UZS) asosida shaxsiy balans yuritiladi. Barcha to'lovlar balansingizdan kunlik yechiladi. Balansni to'ldirish quyidagi usullar orqali amalga oshiriladi:
+    <ul>
+      <li><b>Karta to'lovi (ALEX PAY)</b> — O'zbekiston bank kartalari orqali to'ldirish. Karta orqali to'ldirishda <b>+5% bonus</b> taqdim etiladi (masalan, 100,000 so'm to'lasangiz, balansingizga 105,000 so'm tushadi)</li>
+      <li><b>Boshqa to'lov usullari</b> — qo'shimcha usullar platformada e'lon qilinadi</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">6.2</span><b>Referral (taklif) tizimi.</b> O'z referral havolangiz orqali yangi foydalanuvchilarni taklif qilsangiz, ular xizmatdan foydalanishni boshlagandan so'ng balansingizga avtomatik mukofot puli tushadi. Mukofot miqdori platformada ko'rsatiladi (hozirda 300 so'm). Referral mukofotlari loyiha yaratish uchun balansdan foydalanish mumkin.</p>
+  <p class="clause"><span class="n">6.3</span><b>Kunlik hisoblanish.</b> Loyiha aktiv bo'lgan har bir kuni uchun kunlik tarif narxi balansingizdan avtomatik yechiladi. Agar balans yetarli bo'lmasa, loyiha to'xtatiladi va ogohlantirish yuboriladi.</p>
+  <p class="clause"><span class="n">6.4</span><b>Muddatni uzaytirish.</b> Loyiha muddatini uzaytirish uchun kamida 7 kunlik mablag' balansingizda bo'lishi shart. Muddat uzaytirish bo'yicha so'rov loyiha boshqaruv panelidagi «Muddatni uzaytirish» tugmasi orqali amalga oshiriladi.</p>
+  <div class="clause"><span class="n">6.5</span><b>Qaytarish siyosati:</b>
+    <ul>
+      <li>Pul qaytarish faqat Xizmat tomonidan yuzaga kelgan texnik xatolik sababli loyiha ishlamagan holatlarda ko'rib chiqiladi</li>
+      <li>Trial (sinov) davrida sarflangan mablag'lar qaytarilmaydi</li>
+      <li>Foydalanuvchi xatosi (noto'g'ri token, loyiha o'chirilishi va h.k.) natijasida yo'qolgan mablag'lar qaytarilmaydi</li>
+      <li>Qoidabuzarlik sababli bloklangan hisoblar uchun balans qaytarilmaydi</li>
+      <li>Qaytarish talabi uchun <a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a> ga murojaat qiling — 48 soat ichida ko'rib chiqiladi</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">6.6</span><b>Balansni naqd qilish.</b> Balansingizdagi mablag'larni naqd pul yoki boshqa tizimga o'tkazish imkoni mavjud emas — balans faqat Alex Builder xizmatlarini to'lash uchun ishlatiladi.</p>
+</section>
+
+<!-- 7 -->
+<section class="card">
+  <div class="card-head"><div class="num">7</div><div><h2>Trial (sinov) davri va loyiha yaratish jarayoni</h2><p>Bepul davr, to'xtatilish va o'chirish mexanizmi</p></div></div>
+  <p class="clause"><span class="n">7.1</span><b>Sinov davri.</b> Har bir yangi loyiha yaratilganda <b>3 kunlik bepul trial</b> taqdim etiladi. Bu davr ichida loyiha to'liq faoliyat ko'rsatadi va balansingizdan mablag' yechilmaydi.</p>
+  <p class="clause"><span class="n">7.2</span><b>Skript narxi.</b> Loyiha yaratish jarayonida bir martalik skript narxi to'lanishi mumkin. Birinchi loyiha uchun ushbu narx 0 so'm bo'lishi mumkin (skript shartlariga qarab). Keyingi loyihalar uchun skript narxi ko'rsatiladi.</p>
+  <p class="clause"><span class="n">7.3</span><b>Trial tugagandan keyin quyidagi ketma-ketlik amalga oshadi:</b></p>
+  <div class="tbl"><table>
+    <tr><th>Bosqich</th><th>Muddat</th><th>Loyiha holati</th><th>Nima bo'ladi</th></tr>
+    <tr><td><b>Trial davri</b></td><td>0–7 kun</td><td><span class="tag s-act">Aktiv</span></td><td>Loyiha ishlaydi, to'lov talab qilinmaydi</td></tr>
+    <tr><td><b>Kutish davri</b></td><td>7–14 kun</td><td><span class="tag s-stop">To'xtatilgan</span></td><td>Loyiha to'xtatilgan, ma'lumotlar saqlanadi, ogohlantirish yuboriladi</td></tr>
+    <tr><td><b>O'chirish</b></td><td>14-kun</td><td><span class="tag s-del">O'chirilgan</span></td><td>Barcha ma'lumotlar, fayllar, webhook va skript butunlay o'chiriladi</td></tr>
+  </table></div>
+  <div class="danger">⚠️ <b>Diqqat:</b> O'chirilgandan so'ng loyiha ma'lumotlari (foydalanuvchilar bazasi, balanslar, sozlamalar, webhook, skript fayllari) tiklanmaydi. Muddatni o'z vaqtida uzaytirishni unutmang.</div>
+  <p class="clause"><span class="n">7.4</span>Trial davrida ham Foydalanuvchi ushbu Shartlarning barcha qoidalariga rioya qilishi shart. Trial davri taqiqlangan faoliyat uchun «imtiyoz» bermaydigan sinov imkoniyatidir.</p>
+</section>
+
+<!-- 8 -->
+<section class="card">
+  <div class="card-head"><div class="num">8</div><div><h2>Egallik, kontent va intellektual mulk</h2><p>Kim nimaga ega va kim javobgar</p></div></div>
+  <p class="clause"><span class="n">8.1</span><b>Loyiha egasi.</b> Loyiha yaratgan foydalanuvchi uning qonuniy egasi hisoblanadi va Telegram ID (chat_id) orqali aniqlanadi. Loyiha egasini o'zgartirish platformada «Egasini o'tkazish» funksiyasi orqali amalga oshiriladi — yangi eganing Telegram ID si kiritiladi.</p>
+  <p class="clause"><span class="n">8.2</span><b>Kontent mas'uliyati.</b> Loyihangiz orqali tarqatiladigan barcha kontent — filmlar, raqamlar, sovg'alar, xabarlar, reklamalar — to'liq Sizning mas'uliyatingizda. Xizmat kontent sifati yoki qonuniyligini tekshirmaydi, ammo shikoyat kelib tushganda loyihani to'xtatish huquqini saqlaydi.</p>
+  <p class="clause"><span class="n">8.3</span><b>Skriptlar va platforma intellektual mulki.</b> Alex Builder tomonidan ishlab chiqilgan skriptlar, algoritm va platforma kodi Xizmatning intellektual mulki hisoblanadi. Ularni reverse-engineer qilish, nusxalash, qayta tarqatish yoki tijoriy maqsadlarda ishlatish taqiqlanadi.</p>
+  <p class="clause"><span class="n">8.4</span><b>Foydalanuvchi ma'lumotlari.</b> Loyihangiz to'plagan foydalanuvchilar ma'lumotlari (SQL bazasi) sizga tegishli, ammo Xizmat serverida joylashgan. Xizmat ushbu ma'lumotlarga faqat texnik xizmat ko'rsatish maqsadida kirishi mumkin.</p>
+  <p class="clause"><span class="n">8.5</span><b>Zaxiralash.</b> Xizmat loyihangizning ma'lumotlarini avtomatik ravishda <b>kuniga 2 marta</b> zaxiralaydi va so'nggi <b>7 kunlik</b> nusxalar saqlanadi. Foydalanuvchi mustaqil ravishda backup qila olmaydi. Ma'lumotlarni tiklash faqat Xizmat xatoligi yuzaga kelgan hollarda yoki Xizmat bilan alohida kelishuv asosida amalga oshiriladi.</p>
+</section>
+
+<!-- 9 -->
+<section class="card">
+  <div class="card-head"><div class="num">9</div><div><h2>Hisobni to'xtatish va bloklash</h2><p>Qachon va qanday chora ko'riladi</p></div></div>
+  <div class="clause"><span class="n">9.1</span>Xizmat quyidagi holatlarda hisobingizni va/yoki loyihalaringizni to'xtatish huquqiga ega:
+    <ul>
+      <li>4-bo'limdagi taqiqlangan faoliyatlar aniqlanganda</li>
+      <li>Balans yetarli bo'lmaganda (loyiha to'xtatiladi, o'chirilmaydi)</li>
+      <li>Loyiha muddati tugab, kutish davri o'tib ketganda</li>
+      <li>Telegram API tomonidan loyiha bloklanganda</li>
+      <li>Huquqni muhofaza qiluvchi organlarning talabiga ko'ra</li>
+      <li>Xizmat shartlarini tizimli ravishda buzganda</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">9.2</span><b>Ogohlantirish tartibi.</b> Qoidabuzarlik aniqlanganda odatda birinchi marta ogohlantirish yuboriladi. Jiddiy yoki takroriy buzilishlarda ogohlantirishsiz darhol bloklash amalga oshiriladi.</p>
+  <div class="clause"><span class="n">9.3</span><b>Bloklash oqibatlari:</b>
+    <ul>
+      <li>Loyiha darhol to'xtatiladi va webhook o'chiriladi</li>
+      <li>Server fayllar va ma'lumotlar bazasi o'chiriladi</li>
+      <li>Balansda qolgan mablag' muzlatiladi</li>
+      <li>Hisob bloklanadi va keyingi loyiha yaratish taqiqlanadi</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">9.4</span><b>Shikoyat va tiklash.</b> Noto'g'ri bloklash yuz berganda <a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a> ga murojaat qiling. Shikoyat 48–72 soat ichida ko'rib chiqiladi.</p>
+  <p class="clause"><span class="n">9.5</span><b>O'z-o'zini o'chirish.</b> Foydalanuvchi istalgan vaqtda loyihasini o'chirishi mumkin — barcha fayllar, webhook va ma'lumotlar bazasi to'liq o'chiriladi. Bu jarayon qaytarib bo'lmaydi.</p>
+</section>
+
+<!-- 10 -->
+<section class="card">
+  <div class="card-head"><div class="num">10</div><div><h2>Maxfiylik va ma'lumotlar himoyasi</h2><p>Qanday ma'lumotlar to'planadi va qanday ishlatiladi</p></div></div>
+  <p class="clause"><span class="n">10.1</span><b>To'planadigan ma'lumotlar.</b> Xizmat foydalanuvchi haqida quyidagi ma'lumotlarni saqlaydi: Telegram ID, ism, balans, yaratilgan loyihalar ro'yxati, to'lov tarixi va referral ma'lumotlari.</p>
+  <p class="clause"><span class="n">10.2</span><b>Foydalanish maqsadi.</b> To'plangan ma'lumotlar faqat xizmat ko'rsatish, bildirishnoma yuborish, to'lovlarni hisoblash va qoidabuzarliklarni aniqlash maqsadida ishlatiladi.</p>
+  <p class="clause"><span class="n">10.3</span><b>Uchinchi taraflarga o'tkazish.</b> Foydalanuvchi ma'lumotlari hech qachon tijorat maqsadida sotilmaydi. Faqat quyidagi holatlarda uchinchi taraflarga o'tkazilishi mumkin: huquqni muhofaza qiluvchi organlarning rasmiy talabiga ko'ra; to'lov provayderlari (karta to'lovi uchun minimal zaruriy ma'lumot); xizmatni ko'rsatish uchun jalb qilingan ishonchli texnik hamkorlar.</p>
+  <p class="clause"><span class="n">10.4</span><b>Ma'lumotlarni o'chirish.</b> Hisobingizni to'liq o'chirishni yoki ma'lumotlaringizni eksport qilishni xohlasangiz — <a href="mailto:supportalexbuilder@proton.me">supportalexbuilder@proton.me</a> yoki <a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a> ga yozing. So'rov 7 kun ichida ko'rib chiqiladi.</p>
+  <p class="clause"><span class="n">10.5</span><b>Cookie va kuzatuv.</b> Veb-sahifamiz (<a href="https://b.alexy.uz">b.alexy.uz</a>) asosiy ishlash uchun zarur minimal cookie fayllardan foydalanadi. Uchinchi tomon analitika yoki reklama cookie-lari ishlatilmaydi.</p>
+  <div class="ok">🔒 Biz sizning shaxsiy ma'lumotlaringizni hech qachon sotmaymiz, reklama maqsadida ishlatmaymiz va ruxsatsiz uchinchi taraflarga bermaymiz.</div>
+</section>
+
+<!-- 11 -->
+<section class="card">
+  <div class="card-head"><div class="num">11</div><div><h2>Xizmat cheklovlari va javobgarlikni cheklash</h2><p>Kafolatlar va cheklovlar</p></div></div>
+  <div class="clause"><span class="n">11.1</span><b>Xizmat kafolatlari.</b> Xizmat barqaror va uzluksiz ishlashga intiladi, ammo quyidagilarni kafolat bermaydi:
+    <ul>
+      <li>Uzluksiz xizmat (hosting serveri, Telegram API, internet uzilishi bo'lishi mumkin)</li>
+      <li>Ma'lumotlar yo'qolishidan to'liq himoya (backup mavjud, ammo tiklash faqat xatolik yoki kelishuv asosida amalga oshiriladi)</li>
+      <li>Telegram-ning o'z qoidalari o'zgarishi natijasida loyiha ishlashining davom etishi</li>
+      <li>Har qanday xatolikdan to'liq xoli bo'lish</li>
+    </ul>
+  </div>
+  <div class="clause"><span class="n">11.2</span><b>Javobgarlik cheklovi.</b> Alex Builder quyidagi yo'qotishlar uchun hech qanday holatda javobgar emas:
+    <ul>
+      <li>Loyiha orqali yo'qotilgan daromad yoki foyda</li>
+      <li>Foydalanuvchilar bazasi yo'qolishi</li>
+      <li>Obro' va biznesga yetkazilgan zarar</li>
+      <li>Bilvosita yoki oqibatdagi (consequential) zararlar</li>
+      <li>Telegram platformasi yoki uchinchi tomon API xatolaridan kelib chiqqan yo'qotishlar</li>
+    </ul>
+  </div>
+  <p class="clause"><span class="n">11.3</span><b>Maksimal javobgarlik.</b> Har qanday holatda Xizmatning jami javobgarligi so'nggi 30 kun ichida Foydalanuvchi to'lagan summadan oshmasligi kerak.</p>
+  <p class="clause"><span class="n">11.4</span><b>Force majeure.</b> Xizmat tabiiy ofatlar, urush, epidemiya, hukumat tomonidan blok yoki boshqa nazorat qilib bo'lmaydigan holatlar tufayli yuzaga kelgan uzilishlar uchun javobgar emas.</p>
+  <p class="clause"><span class="n">11.5</span><b>Telegram API o'zgarishlari.</b> Telegram o'z qoidalari yoki API ni o'zgartirsa va bu loyihalar ishlashiga ta'sir qilsa, Xizmat iloji boricha tezda yangilanishni chiqaradi, ammo bu davr ichidagi loyihaning ishlamasligiga javobgar emas.</p>
+</section>
+
+<!-- 12 -->
+<section class="card">
+  <div class="card-head"><div class="num">12</div><div><h2>Nizolarni hal etish va qonuniy asoslar</h2><p>Kelishmovchiliklar qanday hal qilinadi</p></div></div>
+  <p class="clause"><span class="n">12.1</span><b>Muzokaralar.</b> Birinchi navbatda har qanday nizo yoki kelishmovchilik <a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a> yoki <a href="mailto:supportalexbuilder@proton.me">supportalexbuilder@proton.me</a> orqali murojaat qilib, tomonlar o'rtasida muzokara yo'li bilan hal etiladi.</p>
+  <p class="clause"><span class="n">12.2</span><b>Sud tartibi.</b> Muzokara orqali hal bo'lmagan nizolar O'zbekiston Respublikasining amaldagi qonunchiligiga muvofiq O'zbekiston sudlarida ko'rib chiqiladi.</p>
+  <p class="clause"><span class="n">12.3</span><b>Amaldagi qonunchilik.</b> Ushbu Shartlar O'zbekiston Respublikasi qonunlari, jumladan «Elektron tijorat», «Axborot xavfsizligi» va «Shaxsiy ma'lumotlar» to'g'risidagi qonunlar asosida tartibga solinadi.</p>
+  <p class="clause"><span class="n">12.4</span><b>Shartlarning bo'linuvchanligi.</b> Agar ushbu Shartlarning biror qismi qonunga zid deb topilsa, qolgan qismlar o'z kuchida qoladi.</p>
+</section>
+
+<!-- 13 -->
+<section class="card">
+  <div class="card-head"><div class="num">13</div><div><h2>Shartlarni yangilash va xizmat o'zgarishlari</h2><p>Qanday va qachon o'zgaradi</p></div></div>
+  <p class="clause"><span class="n">13.1</span>Xizmat ushbu Shartlarni istalgan vaqtda yangilash huquqini saqlaydi. Muhim o'zgarishlar haqida Foydalanuvchilarga <a href="https://t.me/AlexBuilderBot">@AlexBuilderBot</a> orqali kamida <b>7 kun oldin</b> ogohlantirish yuboriladi.</p>
+  <p class="clause"><span class="n">13.2</span>Yangilangan shartlar e'lon qilinganidan so'ng xizmatdan foydalanishni davom ettirish — yangi shartlarni qabul qilgan deb hisoblanadi.</p>
+  <p class="clause"><span class="n">13.3</span><b>Xizmatni to'liq to'xtatish.</b> Agar Xizmat faoliyatini to'liq to'xtatish zaruriyati tug'ilsa, Foydalanuvchilarga kamida <b>30 kun oldin</b> xabar beriladi. Bu davr ichida ma'lumotlaringizni eksport qilish imkoni bo'ladi. Balansda qolgan mablag'lar qaytarish tartibi alohida e'lon qilinadi.</p>
+  <p class="clause"><span class="n">13.4</span><b>Texnik ta'mirlash (maintenance).</b> Rejalashtirilgan texnik ishlar oldindan e'lon qilinadi. Favqulodda ta'mirlash ishlari esa imkon qadar tezda hal etiladi. Bunday uzilishlar uchun kompensatsiya ko'zda tutilmagan.</p>
+  <p class="clause"><span class="n">13.5</span>Ushbu Shartlarning joriy versiyasi doim <a href="https://b.alexy.uz/terms">b.alexy.uz/terms</a> sahifasida mavjud bo'ladi. Sahifa yuqorisidagi sana — oxirgi yangilanish sanasini bildiradi.</p>
+</section>
+
+<!-- 14 -->
+<section class="card">
+  <div class="card-head"><div class="num">14</div><div><h2>Aloqa va qo'llab-quvvatlash</h2><p>Murojaat qilish yo'llari</p></div></div>
+  <p class="clause"><span class="n">14.1</span>Texnik yordam, hisob-kitob savollari, shikoyat yoki huquqiy masalalar bo'yicha quyidagi kanallar orqali murojaat qiling:</p>
+  <div class="contact"><span class="ic">💬</span><div><small>Telegram Support</small><a href="https://t.me/alexbuilder_chat">@alexbuilder_chat</a></div></div>
+  <div class="contact"><span class="ic">🤖</span><div><small>Asosiy bot</small><a href="https://t.me/AlexBuilderBot">@AlexBuilderBot</a></div></div>
+  <div class="contact"><span class="ic">📧</span><div><small>Elektron pochta</small><a href="mailto:supportalexbuilder@proton.me">supportalexbuilder@proton.me</a></div></div>
+  <div class="contact"><span class="ic">🌐</span><div><small>Veb-sayt</small><a href="https://b.alexy.uz">b.alexy.uz</a></div></div>
+  <p class="clause"><span class="n">14.2</span><b>Javob vaqti:</b> Oddiy so'rovlar — ish soatlarida (09:00–22:00, Toshkent vaqti) 7–48 soat ichida. Jiddiy texnik muammolar va xavfsizlik buzilishlari — imkon qadar tezroq. Telegram orqali murojaat eng tez natija beradi.</p>
+  <p class="clause"><span class="n">14.3</span><b>Xavfsizlik muammolari.</b> Xizmatda zaiflik yoki xavfsizlik muammosini aniqlaganingizda darhol <a href="mailto:supportalexbuilder@proton.me">supportalexbuilder@proton.me</a> ga xabar bering. Ommaviy e'lon qilishdan oldin bizga tuzatish imkoniyatini bering.</p>
+  <p class="clause"><span class="n">14.4</span><b>Dasturchi:</b> <a href="https://t.me/asadullo_aura">@asadullo_aura</a> (texnik masalalar bo'yicha bevosita murojaat uchun).</p>
+</section>
+
+</main>
+
+<footer>
+  Ushbu shartlarni o'qib chiqib, <b>qabul qildingiz</b> deb hisoblanasiz.<br>
+  Oxirgi yangilanish: <b>11 Iyun, 2025</b> · Versiya 2.0 · <a href="https://b.alexy.uz">Alex Builder</a>
+  <hr style="border:none;border-top:1px solid var(--line);margin:18px 0">
+  © 2026 Alex Builder · <a href="https://t.me/AlexBuilderBot">@AlexBuilderBot</a> · <a href="https://t.me/alexbuilder_chat">Qo'llab-quvvatlash</a> · <a href="mailto:supportalexbuilder@proton.me">supportalexbuilder@proton.me</a>
+</footer>
+
+<script>
+  try {
+    const tg = window.Telegram && window.Telegram.WebApp;
+    if (tg) {
+      tg.ready();
+      tg.expand();
+    }
+  } catch (e) {}
+</script>
+</body>
+</html>
